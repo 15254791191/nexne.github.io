@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>耐克森轮胎</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#1a75ff',
+secondary: '#ff4d4d'
+},
+borderRadius: {
+'none': '0px',
+'sm': '2px',
+DEFAULT: '4px',
+'md': '8px',
+'lg': '12px',
+'xl': '16px',
+'2xl': '20px',
+'3xl': '24px',
+'full': '9999px',
+'button': '4px'
+}
+}
+}
+}
+</script>
+<style>
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+.floating { animation: float 3s ease-in-out infinite; }
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+</style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
+<div class="max-w-[750px] mx-auto px-4 py-8">
+<div class="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden border border-gray-800">
+<div class="relative h-[400px] overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/3de4a956b79da297b0b858db1da8db1d.jpg"
+class="w-full h-full object-cover object-center floating"
+alt="耐克森轮胎">
+<div class="absolute inset-0 glassmorphism flex flex-col items-center justify-center gap-4">
+<h1 class="text-white text-5xl font-['Rajdhani'] tracking-wider">NEXEN TIRE</h1>
+<h2 class="text-white text-2xl font-['Rajdhani'] tracking-widest">耐克森轮胎</h2>
+</div>
+</div>
+<div class="p-8 space-y-6">
+<div class="text-center text-gray-300 mb-8">
+<p class="text-xl font-['Rajdhani']">PROFESSIONAL TIRE SERVICE</p>
+<p class="mt-2 text-gray-400">引领未来 驭见非凡</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<a href="https://wechat.idabei.com/k6-router/index.html?wd=2V57xq--《修改密码》" class="block">
+<button class="w-full bg-primary text-white py-4 px-6 rounded-button flex items-center justify-center space-x-2 hover:scale-105 transform transition-all duration-300 shadow-lg shadow-primary/30 whitespace-nowrap">
+<i class="fas fa-key text-lg w-6 h-6 flex items-center justify-center"></i>
+<span class="font-['Rajdhani'] tracking-wider">修改密码</span>
+</button>
+</a>
+<a href="https://wechat.idabei.com/k6-router/index.html?wd=3UblYC--《代金券使用》" class="block">
+<button class="w-full bg-secondary text-white py-4 px-6 rounded-button flex items-center justify-center space-x-2 hover:scale-105 transform transition-all duration-300 shadow-lg shadow-secondary/30 whitespace-nowrap">
+<i class="fas fa-ticket-alt text-lg w-6 h-6 flex items-center justify-center"></i>
+<span class="font-['Rajdhani'] tracking-wider">代金券使用</span>
+</button>
+</a>
+</div>
+<div class="mt-8 text-center">
+<p class="text-primary font-['Rajdhani'] text-xl tracking-wider">NEXEN TIRE</p>
+<p class="mt-2 text-gray-400 font-['Rajdhani'] tracking-wider">服务热线：13568565856</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
